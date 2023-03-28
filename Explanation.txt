@@ -1,0 +1,8 @@
+
+
+Python1
+In this program, the factorial(n) function takes an integer n as input and calculates its factorial using a for loop. The loop iterates from 1 to n and multiplies each number with the previous result, stored in the result variable, until it reaches n. Finally, the function returns the result, which is the factorial of n. The program then takes an input number num and prints the result of calling the factorial(num) function, which is the factorial of num.
+
+
+Facrotial2
+In this program, the input number is stored in the variable num. A variable result is initialized with 1, and a for loop is used to iterate from 1 to num. In each iteration of the loop, the value of result is multiplied by i (the current iteration number), and the result is stored back in result. After the loop has completed, the final value of result is the factorial of num. The program then prints the result.
