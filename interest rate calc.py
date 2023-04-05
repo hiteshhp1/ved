@@ -3,6 +3,7 @@
 # Define the variables
 principal = int(input("Enter the principal amount: "))
 capital = principal
+Monthly = int(input("Enter Monthly deposit: "))
 rate = float(input("Enter the interest rate: "))
 n = int(input("Enter the number of years: "))
 
@@ -18,7 +19,7 @@ print("{:<8}{:<15}{:<12}{:<15}{:<15}{:<12}".format("Year", "Principal", "Interes
 # Calculate and print the values for each year
 for i in range(1, n+1):
     year_interest = principal * (rate / 100)
-    year_end = principal + year_interest
+    year_end = principal + year_interest + Monthly*12
     total_interest = year_interest + total_interest
     cumu_return = (total_interest / capital)* 100
     annu_return = cumu_return/i
